@@ -1,0 +1,11 @@
+*.exe
+*.txt
+*.bin
+*.docx
+*.xlsx
+*.pptx
+*.zip
+*.rar
+*.doc
+*.json
+*.sh
