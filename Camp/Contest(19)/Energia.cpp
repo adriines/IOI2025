@@ -16,7 +16,7 @@ void build(ll i,ll l, ll r){
 }
 ll querie(ll i, ll l, ll r, ll lq, ll rq){
     if(l>rq || lq>r) return 0;
-    if(lq<=l && r<=rq) return T[i]; // CONDICIONAAAAL
+    if(lq<=l && r<=rq) return T[i]; 
     ll m=(l+r)/2;
     return querie(2*i+1,l,m,lq,rq)+querie(2*i+2,m+1,r,lq,rq);
 }
